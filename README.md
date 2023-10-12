@@ -16,16 +16,16 @@ The following techniques have been used:
  - All the above said modelling techniques are tried and evaluated. The final metric used to evaluate is mean squared error.
 
 ## Command to create an environment from the env.yml file you have generated
-'''python
+```
 conda env create -n mle-dev -f env.yml
-'''
+```
 
 ## Command to activate the environment
-'''python
+```
 conda activate mle-dev
-'''
+```
 
 ## Command to execute the script
-'''python
+```
 python nonstandardcode.py
-'''
+```
