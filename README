@@ -1,1 +1,7 @@
+Create a GitHub issue for the current assignment and add in the details based on what is requested in this assignment and assign it to yourself.
 
+Create a new branch fix/<issue-id>/manual-refactor from v0.1 (created in the last exercise of previous module). Use the tools black and isort to reformat the code. Once done, run flake8 and fix any errors identified by the tool.
+
+Create a Pull Request for your changes. Pls. ensure that flake8 does not raise any errors when run on the submitted PR. Make sure any required config files are part of the PR.
+
+Flake8 command - flake8 nonstandardcode.py
