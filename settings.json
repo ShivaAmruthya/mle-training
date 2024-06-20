@@ -1,0 +1,28 @@
+{
+    "terminal.integrated.rightClickBehavior": "default",
+    "files.trimTrailingWhitespace": true,
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length=110"
+    ],
+    "isort.args": [
+        "--profile",
+        "black"
+    ],
+    "flake8.args": [
+        "--max-line-length=120"
+    ],
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        },
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4,
+        "editor.formatOnType": true
+    },
+    "notebook.formatOnSave.enabled": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    }
+}
